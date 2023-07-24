@@ -192,3 +192,113 @@
 		transform: rotate(360deg);
 	}
 }
+
+
+@media screen and (min-width: 425px){
+    .myCar img{
+        width: 90%;
+    }
+    .myWheel img{
+        width: 75px;
+        height: 75px;
+    }
+    .myBack-wheel {
+        left: 94px;
+    }
+    .myFront-wheel{
+        left: 370px;
+    }
+
+    .bike{
+        left: 250px;
+    }
+    .bike img{
+        width: 40%;
+    }
+
+    .car img{
+        width: 90%;
+    }
+    .wheel img{
+        width: 60px;
+        height: 60px;
+    }
+    .back-wheel{
+        left: 135px;
+    }
+    .front-wheel{
+        left: 350px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    .myBack-wheel {
+        left: 95px;
+    }
+    .myFront-wheel{
+        left: 370px;
+    }
+
+    .bike{
+        left: 260px;
+    }
+
+    .back-wheel{
+        left: 135px;
+    }
+    .front-wheel{
+        left: 360px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px){
+    .myWheel img{
+        width: 90px;
+        height: 90px;
+    }
+    .myBack-wheel {
+        left: 115px;
+    }
+    .myFront-wheel{
+        left: 390px;
+    }
+
+    .bike{
+        left: 400px;
+    }
+
+    .wheel img{
+        width: 72px;
+        height: 72px;
+    }
+    .back-wheel{
+        left: 195px;
+    }
+    .front-wheel{
+        left: 414px;
+    }
+    
+}
+
+@media screen and (min-width: 2560px){
+    .myBack-wheel {
+        left: 170px;
+    }
+    .myFront-wheel{
+        left: 450px;
+    }
+
+    .bike{
+        left: 700px;
+    }
+
+    .back-wheel{
+        left: 290px;
+    }
+    .front-wheel{
+        left: 510px;
+    }
+    
+}
